@@ -4,5 +4,6 @@ WORKDIR /app
 ADD . /app
 RUN pip install -r requirements.txt
 #CMD ["python","pytest_run.py"]
-CMD ["python -m pytest --alluredir report --clean-alluredir"]
+#CMD ["python -m pytest --alluredir report --clean-alluredir"]
+CMD ["python -m pytest"]
 
