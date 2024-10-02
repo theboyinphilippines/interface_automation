@@ -1,7 +1,7 @@
 FROM python:3.8
 MAINTAINER Tester
 WORKDIR /app
-ADD . /app
+COPY . .
 RUN pip install -r requirements.txt
-CMD ["python -m pytest --alluredir report --clean-alluredir"]
-
+#ENTRYPOINT ["./python -m pytest --alluredir report --clean-alluredir"]
+ENTRYPOINT ["./pytest --alluredir report --clean-alluredir"]
