@@ -4,4 +4,5 @@ WORKDIR /app
 COPY . .
 RUN pip install -r requirements.txt
 #ENTRYPOINT ["./python -m pytest --alluredir report --clean-alluredir"]
-CMD ["python","-m","pytest" ,"--alluredir report","--clean-alluredir"]
+#CMD ["python","-m","pytest" ,"--alluredir report","--clean-alluredir"]
+CMD python -m pytest --alluredir report --clean-alluredir
