@@ -1,8 +1,6 @@
-FROM python:3.8
+FROM python:3.8-alpine
 MAINTAINER Tester
 WORKDIR /app
 COPY . .
 RUN pip install -r requirements.txt
-#ENTRYPOINT ["./python -m pytest --alluredir report --clean-alluredir"]
-#CMD ["python","-m","pytest" ,"--alluredir report","--clean-alluredir"]
 CMD python -m pytest --alluredir report --clean-alluredir
