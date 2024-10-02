@@ -1,4 +1,4 @@
-FROM python:3.8
+FROM python:3.8-slim-buster
 MAINTAINER Tester
 WORKDIR /app
 COPY . .
