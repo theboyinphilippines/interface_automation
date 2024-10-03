@@ -11,6 +11,6 @@ allure-python-commons==2.13.5
 PyMySQL==1.0.2
 pytest==7.0.1
 PyYAML==6.0.1
-requests==2.32.3
+requests==2.27.1
 tomli==2.0.1
 urllib3==2.2.3
