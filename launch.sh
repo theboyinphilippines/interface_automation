@@ -1,2 +1,2 @@
-python -m pytest --alluredir report --clean-alluredir
+python3 -m pytest --alluredir report --clean-alluredir
 allure serve report
