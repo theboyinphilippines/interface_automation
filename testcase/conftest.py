@@ -18,7 +18,7 @@ def get_env(request):
 
 @pytest.fixture(scope="session")
 def get_token():
-    base_url = "http://127.0.0.1:8080"
+    base_url = "http://localhost:8081"
     # 发起请求
     data = {'username': "xixihaha", 'password': "123456"}
     headers = {'Content-Type': 'application/json'}
@@ -27,19 +27,19 @@ def get_token():
     return resp["token"]
 
 # 注册接口时，先删除已经注册的该用户
-@pytest.fixture(params=["username1","username2"])
-def delete_user(request):
-    user = request.param
-    db = Db(dbinfo= {
-    "host": "127.0.0.1",
-    "post" : 3306,
-    "user" : "root",
-    "password":"1234qwer!",
-    "database":"automation_db"
-})
-    db.dbcommit(sql='delete from automation_db where username = "%s";' % user)
-    db.dbclose()
-    return user
+# @pytest.fixture(params=["username1","username2"])
+# def delete_user(request):
+#     user = request.param
+#     db = Db(dbinfo= {
+#     "host": "127.0.0.1",
+#     "post" : 3306,
+#     "user" : "root",
+#     "password":"1234qwer!",
+#     "database":"automation_db"
+# })
+#     db.dbcommit(sql='delete from automation_db where username = "%s";' % user)
+#     db.dbclose()
+#     return user
 
 
 
