@@ -10,9 +10,9 @@ pytest+requests+allure+yaml接口自动化测试
 
 
 #### 使用说明
-1.可在线体验，登录Jenkins，账号：qian，密码：admin
-2.选择项目api-test，选择构建，默认为test测试环境，点击构建
-3.构建完成后，点击alure report，可在线查看测试报告。
+1.  可在线体验，登录Jenkins，账号：qian，密码：admin
+2.  选择项目api-test，选择构建，默认为test测试环境，点击构建
+3.  构建完成后，点击alure report，可在线查看测试报告。
 
 
 #### 参与贡献
