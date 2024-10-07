@@ -18,6 +18,7 @@ pytest+requests+allure+yaml接口自动化测试
     
 
    ![01](https://gitee.com/qianlibeishang/interface_automation/blob/master/assets/01.png)
+![输入图片说明](assets/01.png)
 
    ![截屏2024-10-07 上午9.45.45](/Users/the/Desktop/截屏2024-10-07 上午9.45.45.png)
 
