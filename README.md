@@ -15,6 +15,7 @@ pytest+requests+allure+yaml接口自动化测试
    jenkins地址：
 
 2. 选择项目api-test，选择构建，默认为test测试环境，点击构建
+![输入图片说明](https://gulimall-myjavaproject.oss-cn-hangzhou.aliyuncs.com/%E6%88%AA%E5%B1%8F2024-10-07%20%E4%B8%8A%E5%8D%889.39.26.png)
     
 
    ![01](assets/01.png)
