@@ -17,16 +17,14 @@ pytest+requests+allure+yaml接口自动化测试
 2. 选择项目api-test，选择构建，默认为test测试环境，点击构建
     
 
-   ![01](https://gitee.com/qianlibeishang/interface_automation/blob/master/assets/01.png)
-![输入图片说明](assets/01.png)
+   ![01](assets/01.png)
 
-   ![截屏2024-10-07 上午9.45.45](/Users/the/Desktop/截屏2024-10-07 上午9.45.45.png)
-
+   ![02](assets/02.png)
    
 
 3. 构建完成后，点击allure report，可在线查看测试报告。
 
-   ![截屏2024-10-07 上午9.47.20](/Users/the/Desktop/截屏2024-10-07 上午9.47.20.png)
+   ![03](assets/03.png)
 
 
 #### 参与贡献
