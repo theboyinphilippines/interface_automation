@@ -10,7 +10,7 @@ pytest+requests+allure+yaml接口自动化测试
 
 
 #### 使用说明
-1. 可在线体验，登录Jenkins，账号：qian，密码：admin
+1. 可在线体验，登录Jenkins，账号：qian 密码：admin
 
    jenkins地址：http://114.132.46.39:8080
 
